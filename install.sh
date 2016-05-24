@@ -8,7 +8,7 @@ rm -rf ~/.gvimrc.old ~/.vimrc.old ~/.vim.old
 [ -d ~/.vim ] && mv ~/.vim ~/.vim.old
 
 # copy provided files
-cp -a "${DIR}"/.vimrc "${DIR}"/.vim ~
+cp -a "${DIR}"/.gvimrc "${DIR}"/.vimrc "${DIR}"/.vim ~
 
 # external files
 [ -d ~/.vim/bundle/syntastic ] || \
