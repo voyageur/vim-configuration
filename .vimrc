@@ -63,4 +63,4 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_python_checkers = ['python', 'pep8']
 
 "set tabstop=8 softtabstop=4 shiftwidth=4 expandtab
-"set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
